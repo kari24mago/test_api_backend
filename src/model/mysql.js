@@ -3,11 +3,18 @@
 var Sequelize = require('sequelize');
 
 const sequelize = new Sequelize(
-  'sertracen', //nombre de la base de datos
-  'root', //usuario
-  '', //contraseña
+  // 'sertracen', //nombre de la base de datos
+  // 'root', //usuario
+  // '', //contraseña
+  // {
+  //   host: 'localhost',
+  //   dialect: 'mysql'
+  // }
+  'heroku_943513fcfb158a2', //nombre de la base de datos
+  'b4411c5fada009', //usuario
+  '04596105 ', //contraseña
   {
-    host: 'localhost',
+    host: 'us-cdbr-east-03.cleardb.com',
     dialect: 'mysql'
   }
 );
