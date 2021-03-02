@@ -13,8 +13,7 @@ const sequelize = new Sequelize(
 
   // mysql://b4411c5fada009:04596105@us-cdbr-east-03.cleardb.com/heroku_943513fcfb158a2?reconnect=true
 
-  // 'heroku_943513fcfb158a2', //nombre de la base de datos
-  'base_api',
+  'heroku_943513fcfb158a2', //nombre de la base de datos
   'b4411c5fada009', //usuario
   '04596105 ', //contraseña
   {
